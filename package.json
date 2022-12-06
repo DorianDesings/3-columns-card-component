@@ -1,10 +1,8 @@
 {
-  "name": "plantilla",
+  "name": "template",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "build": "postcss dist/css/styles.css -o dist/css/styles.min.css & rm -rf dist/css/styles.css"
+    "build": "postcss src/css/styles.css -o docs/css/styles.min.css"
   },
   "keywords": [],
   "author": "",
